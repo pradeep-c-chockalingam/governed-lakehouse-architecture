@@ -48,6 +48,10 @@ Policies, classifications, validation rules, and access decisions should be driv
 ### 5. AI Readiness Requires Governed Foundations
 AI and retrieval-based use cases depend on well-governed source data, lineage, access boundaries, and explainable data flows.
 
+## Reference Architecture Diagram
+
+![Governed Lakehouse Reference Architecture](docs/diagrams/governed-lakehouse-reference-architecture.png)
+
 ## Reference Layering Model
 
 ### Bronze Layer
