@@ -201,7 +201,7 @@ The purpose is to document architecture patterns that are portable, reusable, an
 
 This repository includes a set of Architecture Decision Records (ADRs) that document key design choices and tradeoffs for the governed lakehouse platform.
 
-- [ADR-001: Lakehouse Architecture Adoption](docs/adr/AADR-001-lakehouse-architecture.md)
+- [ADR-001: Lakehouse Architecture Adoption](docs/adr/ADR-001-lakehouse-architecture.md)
 - [ADR-002: Governance-by-Design](docs/adr/ADR-002-governance-by-design.md)
 - [ADR-003: Separation of Deterministic Logic and AI Behavior](docs/adr/ADR-003-deterministic-vs-ai.md)
 
