@@ -94,6 +94,30 @@ Typical characteristics:
 - controlled access for downstream use cases
 - support for reporting, analytics, and AI workflows
 
+## Governance Control Overlay
+
+![Governance Control Overlay](docs/diagrams/governance-control-overlay.png)
+
+This view highlights how governance is enforced across the lakehouse as a platform capability rather than a downstream control layer.
+
+While the reference architecture defines how data flows across Bronze, Silver, and Gold layers, this overlay focuses on **where and how controls are applied**, including:
+
+- data classification and sensitivity handling
+- role-based and domain-aware access control
+- lineage and traceability across transformations
+- validation-by-default data quality enforcement
+- auditability and reproducibility of platform operations
+
+Each layer applies these controls differently based on its role:
+
+- **Bronze** emphasizes source traceability, ingestion lineage, and restricted raw access  
+- **Silver** enforces schema standardization, validation, and policy-aligned data handling  
+- **Gold** focuses on curated access, governed consumption, and readiness for analytics and AI  
+
+For a more detailed explanation of the control model, see:  
+[Governance Control Model](docs/governance-control-model.md)
+
+
 ## Cross-Cutting Governance Controls
 
 The architecture should enforce governance across all layers, not only at the point of consumption.
