@@ -31,6 +31,19 @@ This architecture is designed to support:
 - reusable standards that enable cross-team adoption
 - readiness for advanced analytics and AI workloads
 
+## Related Repositories
+
+This repository is part of a broader architecture portfolio covering governed data and AI platforms.
+
+- [Data Governance Patterns](https://github.com/pradeep-c-chockalingam/data-governance-patterns)  
+  Reusable governance patterns including validation frameworks and access control models
+
+- [AI Governance and RAG Patterns](https://github.com/pradeep-c-chockalingam/ai-governance-rag-patterns)  
+  Patterns for governing AI systems, including data-in-use controls and explainability for RAG
+
+These repositories together describe how governed lakehouse platforms can be designed, controlled, and extended for analytics and AI use cases.
+
+
 ## Core Principles
 
 ### 1. Governance by Design
